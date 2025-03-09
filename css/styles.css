@@ -292,7 +292,6 @@ a {
     padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-   
 }
 
 .contacts-link:hover,
@@ -334,7 +333,6 @@ a {
     margin: 0 auto;
     padding: 112px 0;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -352,16 +350,13 @@ a {
     margin: 0 auto;
     padding: 188px 0;
   }
-   
 }
 
 @media (min-resolution: 192dpi) {
   .section-solutions {
-background-image: url('../images/solutions/people-office@2x.jpg');
+    background-image: url('../images/solutions/people-office@2x.jpg');
   }
-   
 }
-
 
 .hero-text {
   text-align: center;
@@ -388,7 +383,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     margin: auto;
     margin-bottom: 36px;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -404,7 +398,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     margin: auto;
     margin-bottom: 48px;
   }
-   
 }
 
 .order-button {
@@ -442,14 +435,12 @@ background-image: url('../images/solutions/people-office@2x.jpg');
   .section-advantages {
     padding: 120px 0;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
   .section-advantages {
     padding: 120px 0;
   }
-   
 }
 
 .advantages-list {
@@ -467,7 +458,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     row-gap: 72px;
     column-gap: 24px;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -476,7 +466,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     flex-direction: row;
     gap: 24px;
   }
-   
 }
 
 .advantages-item {
@@ -488,14 +477,12 @@ background-image: url('../images/solutions/people-office@2x.jpg');
   .advantages-item {
     width: calc(50% - 12px);
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
   .advantages-item {
     width: calc((100% - 72px) / 4);
   }
-   
 }
 
 .advantages-item-icon-cont {
@@ -506,7 +493,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
   .advantages-item-icon-cont {
     display: none;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -521,7 +507,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     border: 1px solid #8e8f99;
     border-radius: 4px;
   }
-   
 }
 
 .topic-title-advantages {
@@ -542,7 +527,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     letter-spacing: 0.02em;
     color: #2e2f42;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -553,7 +537,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     letter-spacing: 0.02em;
     color: #2e2f42;
   }
-   
 }
 
 .topic-text-advantages {
@@ -572,7 +555,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     letter-spacing: 0.02em;
     color: #434455;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -583,7 +565,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     letter-spacing: 0.02em;
     color: #434455;
   }
-   
 }
 
 /* #endregion Advantages */
@@ -600,7 +581,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     padding: 96px 0;
     background-color: #f4f4fd;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -608,7 +588,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     padding: 120px 0;
     background-color: #f4f4fd;
   }
-   
 }
 
 .section-title-our-team {
@@ -649,7 +628,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     row-gap: 64px;
     column-gap: 24px;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -662,7 +640,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     row-gap: 72px;
     column-gap: 24px;
   }
-   
 }
 
 .our-team-employee-item {
@@ -694,7 +671,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     max-width: 264px;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -710,7 +686,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
-   
 }
 
 .employee-information {
@@ -782,14 +757,12 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     padding-top: 120px;
     padding-bottom: 120px;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
   .section-our-portfolio {
     padding: 120px 0;
   }
-   
 }
 
 .section-title-portfolio {
@@ -811,7 +784,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     column-gap: 24px;
     row-gap: 48px;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -821,7 +793,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     column-gap: 24px;
     row-gap: 48px;
   }
-   
 }
 
 .our-portfolio-item {
@@ -836,7 +807,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     flex-direction: column;
     width: 356px;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -845,7 +815,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     cursor: pointer;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-   
 }
 
 .our-portfolio-item:hover,
@@ -906,7 +875,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     background-color: #2e2f42;
     padding: 96px 0;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -914,7 +882,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     background-color: #2e2f42;
     padding: 100px 0;
   }
-   
 }
 
 .footer-container {
@@ -932,7 +899,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     margin: 0 0 0 108px;
     padding: 0;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -943,7 +909,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     padding: 0 15px;
     gap: 0;
   }
-   
 }
 
 .footer-main-information {
@@ -958,7 +923,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     align-items: start;
     width: 264px;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -967,7 +931,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     flex-direction: column;
     margin-right: 120px;
   }
-  
 }
 
 .footer-logo {
@@ -981,7 +944,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     margin: 0;
     margin-bottom: 16px;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -989,7 +951,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     display: inline-block;
     margin-bottom: 16px;
   }
-   
 }
 
 .footer-logo .logo-studio {
@@ -1011,7 +972,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     letter-spacing: 0.02em;
     color: #f4f4fd;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1022,7 +982,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     max-width: 264px;
     margin-bottom: 0;
   }
-  
 }
 
 .footer-social-links {
@@ -1039,7 +998,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     align-items: start;
     width: 208px;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1047,7 +1005,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     margin-right: 80px;
     margin-bottom: 0;
   }
-   
 }
 
 .footer-social-media-inscription {
@@ -1067,14 +1024,12 @@ background-image: url('../images/solutions/people-office@2x.jpg');
   .footer-social-links-list {
     gap: 16px;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
   .footer-social-links-list {
     gap: 16px;
   }
-   
 }
 
 .footer-social-link-item {
@@ -1120,7 +1075,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     flex-direction: column;
     align-items: start;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1128,7 +1082,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     display: flex;
     flex-direction: column;
   }
-   
 }
 
 .form-e-mail-column {
@@ -1144,7 +1097,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     flex-direction: row;
     gap: 24px;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1152,7 +1104,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     display: flex;
     gap: 24px;
   }
-   
 }
 
 .form-e-mail-label {
@@ -1163,14 +1114,12 @@ background-image: url('../images/solutions/people-office@2x.jpg');
   .form-e-mail-label {
     gap: 24px;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
   .form-e-mail-label {
     gap: 24px;
   }
-   
 }
 
 .form-e-mail-column-inscription {
@@ -1213,7 +1162,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     letter-spacing: 0.04em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
-  
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1231,7 +1179,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     letter-spacing: 0.04em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
-   
 }
 
 .form-e-mail-column-input::placeholder {
@@ -1298,7 +1245,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1324,7 +1270,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-   
 }
 
 .footer-button:hover,
@@ -1394,7 +1339,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
   }
-   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1412,7 +1356,6 @@ background-image: url('../images/solutions/people-office@2x.jpg');
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
   }
-   
 }
 
 .close-button {
