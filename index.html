@@ -15,10 +15,17 @@
 </head>
 
 <body>
+
+  <!-- #region Header -->
+
   <header class="section-header">
     <div class="container container-header">
       <nav class="navigation">
         <a class="logo header-logo" href="./index.html">Web<span class="logo-studio">Studio</span></a>
+        <button class="header-mob-menu-btn" type="button"><svg width="24" height="24">
+            <use href="./images/icons.svg#burger-menu" class="header-mob-menu-icon">
+            </use>
+          </svg></button>
 
         <ul class="nav-list">
           <li class="nav-item">
@@ -43,7 +50,12 @@
     </div>
   </header>
 
+  <!-- #endregion Header -->
+
   <main>
+
+    <!-- #region Solutions -->
+
     <section class="section-solutions">
       <div class="container">
         <h1 class="hero-text" id="hero">
@@ -54,6 +66,10 @@
       </div>
     </section>
 
+    <!-- #endregion Solutions -->
+
+    <!-- #region Advantages -->
+
     <section class="section-advantages">
       <div class="container">
         <h2 class="section-title visually-hidden" id="advantages">
@@ -63,52 +79,52 @@
         <ul class="advantages-list">
 
           <li class="advantages-item">
-            <div class="svg-space">
+            <div class="advantages-item-icon-cont">
               <svg width="64" height="64" class="advantages-item-icon">
                 <use href="./images/icons.svg#icon-antenna"></use>
               </svg>
             </div>
-            <h3 class="topic-title">Strategy</h3>
-            <p class="topic-text">
+            <h3 class="topic-title topic-title-advantages">Strategy</h3>
+            <p class="topic-text topic-text-advantages">
               Our goal is to identify the business problem to walk away with
               the perfect and creative solution.
             </p>
           </li>
 
           <li class="advantages-item">
-            <div class="svg-space">
+            <div class="advantages-item-icon-cont">
               <svg width="64" height="64" class="advantages-item-icon">
                 <use href="./images/icons.svg#icon-clock"></use>
               </svg>
             </div>
-            <h3 class="topic-title">Punctuality</h3>
-            <p class="topic-text">
+            <h3 class="topic-title topic-title-advantages">Punctuality</h3>
+            <p class="topic-text topic-text-advantages">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
 
           <li class="advantages-item">
-            <div class="svg-space">
+            <div class="advantages-item-icon-cont">
               <svg width="64" height="64" class="advantages-item-icon">
                 <use href="./images/icons.svg#icon-diagram"></use>
               </svg>
             </div>
-            <h3 class="topic-title">Diligence</h3>
-            <p class="topic-text">
+            <h3 class="topic-title topic-title-advantages">Diligence</h3>
+            <p class="topic-text topic-text-advantages">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
 
           <li class="advantages-item">
-            <div class="svg-space">
+            <div class="advantages-item-icon-cont">
               <svg width="64" height="64" class="advantages-item-icon">
                 <use href="./images/icons.svg#icon-astronaut"></use>
               </svg>
             </div>
-            <h3 class="topic-title">Technologies</h3>
-            <p class="topic-text">
+            <h3 class="topic-title topic-title-advantages">Technologies</h3>
+            <p class="topic-text topic-text-advantages">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -117,16 +133,20 @@
       </div>
     </section>
 
+    <!-- #endregion Advantages -->
+
+    <!-- #region Our Team -->
+
     <section class="section-our-team">
       <div class="container container-our-team">
         <h2 class="section-title section-title-our-team" id="team">
           Our Team
         </h2>
         <ul class="our-team-list">
-          <li class="employee-space">
+          <li class="our-team-employee-item">
             <img src="./images/our-team/mark.jpg" alt="Mark Guerrero Product Designer" width="264" height="260" />
-            <div class="employee-space-information">
-              <h3 class="topic-title topic-title-emploee">Mark Guerrero</h3>
+            <div class="employee-information">
+              <h3 class="topic-title topic-title-employee">Mark Guerrero</h3>
               <p class="topic-text topic-text-emploee">Product Designer</p>
 
               <ul class="social-links">
@@ -167,10 +187,10 @@
             </div>
           </li>
 
-          <li class="employee-space">
+          <li class="our-team-employee-item">
             <img src="./images/our-team/tom.jpg" alt="Tom Ford Frontend Developer" width="264" height="260" />
-            <div class="employee-space-information">
-              <h3 class="topic-title topic-title-emploee">Tom Ford</h3>
+            <div class="employee-information">
+              <h3 class="topic-title topic-title-employee">Tom Ford</h3>
               <p class="topic-text topic-text-emploee">Frontend Developer</p>
 
               <ul class="social-links">
@@ -212,10 +232,10 @@
             </div>
           </li>
 
-          <li class="employee-space">
+          <li class="our-team-employee-item">
             <img src="./images/our-team/camila.jpg" alt="Camila Garcia Marketing" width="264" height="260" />
-            <div class="employee-space-information">
-              <h3 class="topic-title topic-title-emploee">Camila Garcia</h3>
+            <div class="employee-information">
+              <h3 class="topic-title topic-title-employee">Camila Garcia</h3>
               <p class="topic-text topic-text-emploee">Marketing</p>
 
               <ul class="social-links">
@@ -257,10 +277,10 @@
             </div>
           </li>
 
-          <li class="employee-space">
+          <li class="our-team-employee-item">
             <img src="./images/our-team/daniel.jpg" alt="Daniel Wilson UI Designer" width="264" height="260" />
-            <div class="employee-space-information">
-              <h3 class="topic-title topic-title-emploee">Daniel Wilson</h3>
+            <div class="employee-information">
+              <h3 class="topic-title topic-title-employee">Daniel Wilson</h3>
               <p class="topic-text topic-text-emploee">UI Designer</p>
 
               <ul class="social-links">
@@ -304,6 +324,10 @@
         </ul>
       </div>
     </section>
+
+    <!-- #endregion Our Team -->
+
+    <!-- #region Our Portfolio -->
 
     <section class="section-our-portfolio">
       <div class="container">
@@ -400,7 +424,13 @@
       </div>
     </section>
 
+    <!-- #endregion Our Portfolio -->
+
   </main>
+
+
+  <!-- #region Footer -->
+
 
   <footer class="section-footer">
 
@@ -460,6 +490,7 @@
       <div class="subscribe-block">
 
         <p class="form-e-mail-column-inscription">Subscribe</p>
+
         <form class="form-e-mail-column">
           <label class="form-e-mail-label">
             <input type="email" id="form-e-mail" placeholder="E-mail" class="form-e-mail-column-input"
@@ -469,9 +500,14 @@
             </svg>
           </button>
         </form>
+
       </div>
     </div>
   </footer>
+
+  <!-- #endregion Footer -->
+
+  <!-- #region Modal -->
 
   <div class="backdrop">
     <div class="modal">
@@ -536,6 +572,76 @@
     </div>
   </div>
 
+  <!-- #endregion Modal -->
+
+  <!-- #region Mobile Menu -->
+
+  <div class="mobile-menu">
+
+    <button class="close-button-mob-menu" type="button">
+      <svg class="close-button-mob-menu-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close">
+        </use>
+      </svg>
+    </button>
+
+    <nav class="navigation-mob">
+      <ul class="nav-list-mob">
+        <li class="nav-item-mob"><a href="./index.html" class="nav-link-mob">Studio</a>
+        </li>
+        <li class="nav-item-mob"><a href="" class="nav-link-mob">Portfolio</a></li>
+        <li class="nav-item-mob"><a href="" class="nav-link-mob">Contacts</a></li>
+      </ul>
+    </nav>
+
+    <address class="contacts-mob">
+      <ul class="contacts-list-mob">
+        <li class="contacts-item-mob">
+          <a class="contacts-link-mob" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="contacts-item-mob">
+          <a class="contacts-link-mob" href="tel:+110001111111">+11 (000) 111-11-11</a>
+        </li>
+      </ul>
+    </address>
+
+    <ul class="social-links-mob">
+      <li class="social-link-mob">
+        <a href="https://www.instagram.com" class="employee-social-link-item-mob">
+          <svg width="24" height="24" class="emploee-social-link-icon-mob">
+            <use href="./images/icons.svg#icon-instagram">
+            </use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-link-mob">
+        <a href="https://x.com/" class="employee-social-link-item-mob">
+          <svg width="24" height="24" class="emploee-social-link-icon-mob">
+            <use href="./images/icons.svg#icon-twitter">
+            </use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-link-mob">
+        <a href="https://www.facebook.com" class="employee-social-link-item-mob">
+          <svg width="24" height="24" class="emploee-social-link-icon-mob">
+            <use href="./images/icons.svg#icon-facebook">
+            </use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-link-mob">
+        <a href="https://www.linkedin.com" class="employee-social-link-item-mob">
+          <svg width="24" height="24" class="emploee-social-link-icon-mob">
+            <use href="./images/icons.svg#icon-linkedin"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+
+  <!-- #endregion Mobile Menu -->
 </body>
 
 </html>
