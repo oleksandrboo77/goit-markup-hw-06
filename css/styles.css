@@ -279,8 +279,6 @@ a {
     padding: 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-   {
-  }
 }
 
 @media only screen and (min-width: 1158px) {
@@ -294,8 +292,7 @@ a {
     padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-   {
-  }
+   
 }
 
 .contacts-link:hover,
@@ -337,8 +334,7 @@ a {
     margin: 0 auto;
     padding: 112px 0;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -356,9 +352,16 @@ a {
     margin: 0 auto;
     padding: 188px 0;
   }
-   {
-  }
+   
 }
+
+@media (min-resolution: 192dpi) {
+  .section-solutions {
+background-image: url('../images/solutions/people-office@2x.jpg');
+  }
+   
+}
+
 
 .hero-text {
   text-align: center;
@@ -385,8 +388,7 @@ a {
     margin: auto;
     margin-bottom: 36px;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -402,8 +404,7 @@ a {
     margin: auto;
     margin-bottom: 48px;
   }
-   {
-  }
+   
 }
 
 .order-button {
@@ -441,16 +442,14 @@ a {
   .section-advantages {
     padding: 120px 0;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
   .section-advantages {
     padding: 120px 0;
   }
-   {
-  }
+   
 }
 
 .advantages-list {
@@ -468,8 +467,7 @@ a {
     row-gap: 72px;
     column-gap: 24px;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -478,8 +476,7 @@ a {
     flex-direction: row;
     gap: 24px;
   }
-   {
-  }
+   
 }
 
 .advantages-item {
@@ -491,16 +488,14 @@ a {
   .advantages-item {
     width: calc(50% - 12px);
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
   .advantages-item {
     width: calc((100% - 72px) / 4);
   }
-   {
-  }
+   
 }
 
 .advantages-item-icon-cont {
@@ -511,8 +506,7 @@ a {
   .advantages-item-icon-cont {
     display: none;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -527,8 +521,7 @@ a {
     border: 1px solid #8e8f99;
     border-radius: 4px;
   }
-   {
-  }
+   
 }
 
 .topic-title-advantages {
@@ -549,8 +542,7 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -561,8 +553,7 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
   }
-   {
-  }
+   
 }
 
 .topic-text-advantages {
@@ -581,8 +572,7 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -593,8 +583,7 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
   }
-   {
-  }
+   
 }
 
 /* #endregion Advantages */
@@ -611,8 +600,7 @@ a {
     padding: 96px 0;
     background-color: #f4f4fd;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -620,8 +608,7 @@ a {
     padding: 120px 0;
     background-color: #f4f4fd;
   }
-   {
-  }
+   
 }
 
 .section-title-our-team {
@@ -662,8 +649,7 @@ a {
     row-gap: 64px;
     column-gap: 24px;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -676,8 +662,7 @@ a {
     row-gap: 72px;
     column-gap: 24px;
   }
-   {
-  }
+   
 }
 
 .our-team-employee-item {
@@ -709,8 +694,7 @@ a {
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     max-width: 264px;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -726,8 +710,7 @@ a {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
-   {
-  }
+   
 }
 
 .employee-information {
@@ -799,16 +782,14 @@ a {
     padding-top: 120px;
     padding-bottom: 120px;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
   .section-our-portfolio {
     padding: 120px 0;
   }
-   {
-  }
+   
 }
 
 .section-title-portfolio {
@@ -830,8 +811,7 @@ a {
     column-gap: 24px;
     row-gap: 48px;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -841,8 +821,7 @@ a {
     column-gap: 24px;
     row-gap: 48px;
   }
-   {
-  }
+   
 }
 
 .our-portfolio-item {
@@ -857,8 +836,7 @@ a {
     flex-direction: column;
     width: 356px;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -867,8 +845,7 @@ a {
     cursor: pointer;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-   {
-  }
+   
 }
 
 .our-portfolio-item:hover,
@@ -929,8 +906,7 @@ a {
     background-color: #2e2f42;
     padding: 96px 0;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -938,8 +914,7 @@ a {
     background-color: #2e2f42;
     padding: 100px 0;
   }
-   {
-  }
+   
 }
 
 .footer-container {
@@ -957,8 +932,7 @@ a {
     margin: 0 0 0 108px;
     padding: 0;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -969,8 +943,7 @@ a {
     padding: 0 15px;
     gap: 0;
   }
-   {
-  }
+   
 }
 
 .footer-main-information {
@@ -985,8 +958,7 @@ a {
     align-items: start;
     width: 264px;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -995,8 +967,7 @@ a {
     flex-direction: column;
     margin-right: 120px;
   }
-   {
-  }
+  
 }
 
 .footer-logo {
@@ -1010,8 +981,7 @@ a {
     margin: 0;
     margin-bottom: 16px;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1019,8 +989,7 @@ a {
     display: inline-block;
     margin-bottom: 16px;
   }
-   {
-  }
+   
 }
 
 .footer-logo .logo-studio {
@@ -1042,8 +1011,7 @@ a {
     letter-spacing: 0.02em;
     color: #f4f4fd;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1054,8 +1022,7 @@ a {
     max-width: 264px;
     margin-bottom: 0;
   }
-   {
-  }
+  
 }
 
 .footer-social-links {
@@ -1072,8 +1039,7 @@ a {
     align-items: start;
     width: 208px;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1081,8 +1047,7 @@ a {
     margin-right: 80px;
     margin-bottom: 0;
   }
-   {
-  }
+   
 }
 
 .footer-social-media-inscription {
@@ -1102,16 +1067,14 @@ a {
   .footer-social-links-list {
     gap: 16px;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
   .footer-social-links-list {
     gap: 16px;
   }
-   {
-  }
+   
 }
 
 .footer-social-link-item {
@@ -1157,8 +1120,7 @@ a {
     flex-direction: column;
     align-items: start;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1166,8 +1128,7 @@ a {
     display: flex;
     flex-direction: column;
   }
-   {
-  }
+   
 }
 
 .form-e-mail-column {
@@ -1183,8 +1144,7 @@ a {
     flex-direction: row;
     gap: 24px;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1192,8 +1152,7 @@ a {
     display: flex;
     gap: 24px;
   }
-   {
-  }
+   
 }
 
 .form-e-mail-label {
@@ -1204,16 +1163,14 @@ a {
   .form-e-mail-label {
     gap: 24px;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
   .form-e-mail-label {
     gap: 24px;
   }
-   {
-  }
+   
 }
 
 .form-e-mail-column-inscription {
@@ -1256,8 +1213,7 @@ a {
     letter-spacing: 0.04em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
-   {
-  }
+  
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1275,8 +1231,7 @@ a {
     letter-spacing: 0.04em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
-   {
-  }
+   
 }
 
 .form-e-mail-column-input::placeholder {
@@ -1343,8 +1298,7 @@ a {
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1370,8 +1324,7 @@ a {
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-   {
-  }
+   
 }
 
 .footer-button:hover,
@@ -1441,8 +1394,7 @@ a {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
   }
-   {
-  }
+   
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1460,8 +1412,7 @@ a {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
   }
-   {
-  }
+   
 }
 
 .close-button {
